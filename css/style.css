@@ -1,0 +1,82 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.bg-image{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: 0;
+
+}
+.opacity-40 {
+    opacity: 0.4;
+}
+
+.text-white img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.text-white{
+    height:860px;
+    padding-top: 300px;
+}
+.col{
+    padding: 5px;
+}
+.btn-secondary{
+    background-color: saddlebrown;
+
+}
+
+.navbar{
+    z-index:1000 ;
+    background-color: #fff;
+    background-color: #343a40!important;
+}
+ .logo{
+    width:20%;
+}
+.hot-style{
+    padding: 25px;
+    margin: 15px;
+}
+.c-image-container--overlay .c-image-container__content:before{
+    background:rgba(0,0,0,.3);
+}
+.c-image-container__content:before{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition:background .2s ease-in;
+}
+.c-image-container__bottom-left{
+position: :absolute;
+display: block;
+padding: 10px;
+    /* color: #fff; */
+}
+.hot_At{
+ padding-top: 30px; 
+ height: 300px;
+}
+
+.c-image-container__bottom-left{
+    position: absolute;
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+
+.c-image-container__bottom-left{
+    bottom:0;
+}
+.city-carousel-label ,.valProp-item-container {
+    text-align: center;
+    padding-bottom: 20px;
+}
