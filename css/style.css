@@ -101,8 +101,6 @@ height: 200px;
 .valProp-item-container{
    background: #343a40;
    color: #fff;
-
-    
 }
 
 .valProp-item-title ,.valProp-item-description{
@@ -111,3 +109,45 @@ height: 200px;
     padding: 10px;
 }
 
+.btn_style{
+width: 30%;
+height: 50px;
+margin: 0 auto;
+background-color:#488BF8;
+border: none;
+color: #fff;
+font-weight: 700;
+text-align: center;
+border-radius: 3px;
+}
+
+/* footer css */
+
+footer{
+    background-color: #343a40;
+    color: #fff;
+}
+footer h4{
+    color:#999;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+footer ul li a{
+    color: #fff;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: #999;
+    
+}
+.footer_st{
+    padding: 10px;
+    background-color: #222222;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.fa-stack-2x{
+    color: #555555;
+}
